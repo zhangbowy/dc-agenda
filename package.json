@@ -1,0 +1,23 @@
+{
+  "name": "agenda-dc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dc-agenda": "^4.2.1",
+    "dc-agendash": "^2.1.1",
+    "express": "^4.17.1",
+    "node-fetch": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/register": "^7.0.0"
+  }
+}
